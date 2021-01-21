@@ -9,12 +9,15 @@
   "main": "src/index.js",
   "dependencies": {
     "@chakra-ui/react": "1.1.5",
+    "@chakra-ui/theme": "1.4.1",
+    "@chakra-ui/theme-tools": "1.0.3",
     "@emotion/react": "11.1.4",
     "@emotion/styled": "11.0.0",
     "framer-motion": "3.2.1",
     "react": "17.0.0",
     "react-dom": "17.0.0",
     "react-helmet": "6.1.0",
+    "react-icons": "4.1.0",
     "react-scripts": "3.4.3"
   },
   "devDependencies": {
