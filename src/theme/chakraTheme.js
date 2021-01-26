@@ -11,43 +11,45 @@ const chakraTheme: Theme = {
     custom: {
       orange7: "#fc6400",
       red8: "#d2202f",
-      fuschia8: "#bb01cc"
+      fuschia8: "#bb01cc",
+      violetblue: "#5A20CB",
+      brightblue: "#0218fe"
     }
   },
   fonts: {
     ...theme.fonts,
-    title: "'Space Grotesk', sans-serif",
-    regtext: "'DM Mono', monospace",
-    nav: "'DM Mono', monospace"
+    title: "Space Grotesk",
+    nav: "Fraunces",
+    text: "Cutive Mono"
   },
   textStyles: {
     title: {
       textAlign: "center",
-      fontSize: ["4xl"],
+      fontSize: ["5xl"],
       fontFamily: "title",
       fontStyle: "italic",
       lineHeight: "100%",
       color: "red.500"
     },
-    h1: {
-      // you can also use responsive styles
-      fontSize: ["48px", "72px"],
-      fontWeight: "bold",
-      lineHeight: "110%",
-      letterSpacing: "-20%",
-      fontFamily: "title"
-    },
-    h2: {
-      fontSize: ["36px", "48px"],
-      fontWeight: "semibold",
-      lineHeight: "110%",
-      letterSpacing: "-1%"
-    },
     nav: {
-      fontSize: ["md", "lg"],
+      fontSize: ["lg", "xl"],
       fontFamily: "nav",
       fontStyle: "italic",
-      color: "purple.500"
+      fontWeight: "bold",
+      color: "custom.brightblue",
+      lineHeight: "200%",
+      letterSpacing: "widest"
+    },
+    text: {
+      fontSize: ["md", "lg"],
+      fontFamily: "text",
+      color: "gray.900"
+    },
+    subtitle: {
+      fontSize: ["lg", "xl"],
+      fontFamily: "text",
+      color: "gray.900",
+      lineHeight: "200%"
     }
   }
 };
